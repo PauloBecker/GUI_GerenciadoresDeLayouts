@@ -61,7 +61,7 @@ public class Tela implements ActionListener {
 	}
 
 	@Override
-	public void actionPerformed(ActionEvent arg0) {
+	public void actionPerformed(ActionEvent e) {
 
 		textArea.setText(textArea.getText() + textField.getText() + "\n" );
 		textField.setText("");
